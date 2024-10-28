@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.headerstyle {
+  display: flex;
+  padding-top: 2rem;
+  margin: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.headingstyle {
+  font-size: 2.5rem;
+  margin-left: 4rem;
+}
+.imagestyle {
+  width: 100%;
+}
+.pstyle {
+  margin-left: 4rem;
+  padding-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sstyle {
+  color: purple;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.btn {
+  margin: 2rem 3.7rem;
+  top: 10px;
+  padding: 0.8rem;
+  background-color: #4444ee;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.imagestyle {
+  cursor: pointer;
+}
+.imagestyle img {
+  padding: 4rem;
+  margin-left: 10rem;
+  width: 50%;
+  border-radius: 12%;
+  -webkit-border-radius: 12%;
+  -moz-border-radius: 12%;
+  -ms-border-radius: 12%;
+  -o-border-radius: 12%;
+}
+
+.imgstyle:hover {
+  transition: ease-in;
+  transition-duration: 0.2s;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -webkit-transition: ease-in;
+  -moz-transition: ease-in;
+  -ms-transition: ease-in;
+  -o-transition: ease-in;
+}
+.styleexp {
+  display: flex;
+}
+.exphstyle {
+  margin: 2rem;
+  width: 20%;
+  padding: 3.3rem;
+}
+.expboxstyle {
+  cursor: pointer;
+  width: 12%;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin: 2rem;
+}
+.heading3style {
+  position: relative;
+  top: 70%;
+  left: 10%;
+  font-size: 1.4rem;
+}
+.expboxstyle:hover {
+  background-color: rgb(206, 175, 236);
+}
+.expcontent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.exphstyle2 {
+  cursor: pointer;
+  margin: 1.4rem;
+  width: 20%;
+  padding: 4rem 3.1rem;
+}
+.hsubtext {
+  text-align: center;
+}
+.psubtext {
+  text-align: center;
+  padding-top: 10px;
+}

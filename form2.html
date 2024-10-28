@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 2</title>
+    <style>
+      form input {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Contact Form 2</h2>
+    <form
+      method="post"
+      action="/signup"
+      enctype="application/x-www-form-urlencoded"
+      name="contact-form"
+      novalidate
+      target="_blank"
+    >
+      <fieldset>
+        <legend>Sign Up</legend>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+        <br />
+        <label for="user">username</label>
+        <input type="text" name="text" id="user" />
+        <br />
+        <label for="password">password</label>
+        <input type="text" name="password" id="password" />
+        <br />
+        <br />
+        <label for="month-picker">Month Picker</label>
+        <input type="month" name="" id="" />
+        <br />
+        <label for="date-picker">Date Picker</label>
+        <input type="date" name="" id="" />
+        <br />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

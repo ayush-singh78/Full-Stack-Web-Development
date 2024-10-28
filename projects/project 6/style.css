@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading-style {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main-contianer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cricle-make {
+  display: flex;
+  justify-content: center;
+  position: relative; /* Allow positioning for .rounded-div */
+  margin: 2rem;
+}
+
+.img-style img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rounded-div {
+  width: 70px; /* Adjust size for your rounded div */
+  height: 70px;
+  background-color: #117a65; /* Example background color */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Positioning it over the image */
+  right: -8%; /* Adjust this value to position it closer */
+  top: 40%;
+  transform: translateY(-50%); /* Center it vertically */
+}
+
+.rounded-div p {
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  font-weight: bold;
+}
+.pstyle2 {
+  font-size: 12px;
+  color: rgb(210, 204, 204);
+  padding-top: 20px;
+  margin: -10px;
+}
+
+.button-div {
+  display: flex;
+  padding-top: 20px;
+  position: relative;
+  top: 40px;
+  left: 32px;
+  border: 1px solid black;
+  width: 60%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: #f4d03f;
+  color: white;
+  border: none;
+
+  gap: 20px;
+  padding: 10px 2px;
+  cursor: pointer;
+}
+.footer-desgin {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgba(0, 0, 0, 0.249);
+  margin-top: 5rem;
+}
+.hestyle {
+  text-align: center;
+  padding-top: 20px;
+}
+a {
+  text-decoration: none;
+}
